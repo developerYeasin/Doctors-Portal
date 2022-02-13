@@ -1,0 +1,47 @@
+#services{
+    padding-top: 50px;
+}
+.service-title{}
+.service-title h4{
+    color: #5fc7c7;
+    font-size: 27px;
+}
+.service-title h2{
+    color: #203047;
+    font-size: 40px;
+}
+.service-item{}
+.service-item-icon{}
+.service-item-icon img{}
+.service-item-info{}
+.service-item-info h3 {
+    color: #565e69;
+    font-size: 28px;
+    margin: 20px 0;
+}
+.service-item-info p {
+    color: #b4b4b4;
+    font-size: 22px;
+    line-height: 25px;
+}
+.onYourTerms{
+    padding-top: 50px;
+}
+.onYourTerms-img img{
+    width: 100%;
+}
+.onYourTerms-content{
+    padding-left: 20px;
+}
+.onYourTerms-content h1 {
+    font-size: 48px;
+    margin-top: 80px;
+    color: #203047;
+}
+.onYourTerms-content p {
+    color: #b2b2b2;
+    font-size: 20px;
+    margin: 82px 0;
+}
+
+

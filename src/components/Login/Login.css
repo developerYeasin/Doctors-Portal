@@ -1,0 +1,47 @@
+#login{
+    height: 100vh;
+}
+
+.login-form {
+    box-shadow: 0 0 13px -2px #0000009c;
+    padding: 51px 52px;
+    border-radius: 5px;
+}
+.login-form h2{
+    font-size: 20px;
+    color: #1cc7c1;
+}
+.login-form input {
+    width: 100%;
+    margin: 14px 0;
+    padding: 8px 18px;
+    border: none;
+    border-bottom: 1px solid #6b5f5f6b;
+    font-size: 20px;
+}
+.login-form input:focus{
+    outline: none;
+}
+
+.login-form button {
+    width: 100%;
+}
+.login-img{}
+.login-img img{
+    width: 100%
+}
+.firebase-log-btn {
+    width: 70% !important;
+    border: none;
+    background: #d9fffe;
+    color: #111;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 8px 8px;
+    margin: auto;
+    display: inherit;
+    margin-bottom: 45px;
+}
+.firebase-log-btn span{
+    font-size: 20px;
+}

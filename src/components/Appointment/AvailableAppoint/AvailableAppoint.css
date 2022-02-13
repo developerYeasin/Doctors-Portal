@@ -1,0 +1,33 @@
+.available-date {
+    padding: 60px 0;
+}
+h2.avail-date-title{
+    text-align: center;
+    color: #1cc7c1;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.avail-appoint-box {
+    box-shadow: 0 0 17px -6px #0000009e;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 12px 0;
+}
+
+button.primary-btn{
+    border: none;
+    padding: 7px 20px;
+}
+.avail-appoint-box-title{
+    font-size: 22px;
+    color: #1cc7c1;
+}
+.avail-appoint-box-date{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3a4256
+}
+.avail-appoint-box-spaces{
+    font-size: 16px;
+    color: #8b8888;
+}

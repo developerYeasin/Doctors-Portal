@@ -1,0 +1,50 @@
+.aboutAppointment {
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 150px 0;
+    padding: 48px 0;
+    position: relative;
+    z-index: 9;
+}
+
+.aboutAppointment::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: #3a4256ed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+
+}
+
+.aboutAppointment-img {
+    position: relative;
+    height: 100%;
+}
+.aboutAppointment-img img {
+    position: absolute;
+    width: 615px;
+    bottom: -48px;
+    left: -90px;
+}
+
+.aboutAppointment-content {}
+
+.aboutAppointment-content h4 {
+    color: #6acece;
+    font-size: 26px;
+}
+
+.aboutAppointment-content h2 {
+    color: #ffffff;
+    font-size: 50px;
+    padding: 28px 0;
+}
+
+.aboutAppointment-content p {
+    color: #ffffff;
+    font-size: 19px;
+    margin-bottom: 48px;
+}

@@ -1,0 +1,41 @@
+.appoint-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+}
+
+.appoint-header::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffffd1;
+    z-index: -1;
+}
+
+.appoint-header-content {
+    padding-top: 100px;
+}
+
+h2.appoint-title {
+    font-size: 35px;
+    color: #203047;
+    margin-bottom: 20px;
+}
+
+/* .Calendar {
+    width: 87% !important;
+} */
+
+.appoint-calender {
+    height: 600px;
+}
+
+.appoint-right-img {}
+
+.appoint-right-img img {
+    width: 100%;
+}

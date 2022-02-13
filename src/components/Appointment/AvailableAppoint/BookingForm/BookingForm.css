@@ -1,0 +1,44 @@
+.popup-overlay {
+    background: #1119;
+}
+.popup-content {
+    width: 50%;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px #11111187;
+    padding: 24px 35px;
+}
+
+.booking-form form{}
+.booking-form form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 15px;
+    border: 2px solid #9b8989;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.booking-form form select{
+     width: 100%;
+     margin: 10px 0;
+     padding: 5px 15px;
+     border: 2px solid #9b8989;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 600;
+     text-transform: capitalize;
+}
+.booking-form-heading {
+    font-size: 26px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #1cc7c1;
+}
+.booking-form-btn {
+    text-align: right;
+    margin-top: 16px;
+}

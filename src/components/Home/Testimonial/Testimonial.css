@@ -1,0 +1,20 @@
+.testimonial-title {
+    padding-top: 39px;
+}
+
+.testimonial-title h4 {
+    color: #6acece;
+    font-size: 26px;
+}
+
+.testimonial-title h2 {
+    color: #3a4256;
+    font-size: 36px;
+}
+.test-coma-icon{
+    text-align: end;
+}
+.test-coma-icon img{
+        width: 230px;
+        opacity: 0.4;
+}

@@ -1,0 +1,24 @@
+.test-slider{
+    margin: 100px 0;
+}
+.slide-item {
+    box-shadow: 0 0 10px 0px #0000008c;
+    margin: 15px;
+        padding: 32px;
+}
+.slide-item p {
+    font-size: 19px;
+}
+.user {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.user .user-name{}
+.user .user-name h5{
+    color: #5fc7c7;
+}
+.user .user-name p{
+    color: #8f8c9b;
+}

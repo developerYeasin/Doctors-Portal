@@ -1,0 +1,57 @@
+.patientInfoTable {
+    box-shadow: 0 0 14px -7px #111111eb;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 35px;
+}
+.patientTable-title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.patientTable-title h4{
+    font-size: 20px;
+    color: #1cc7c1;
+}
+.appoint-date-choose{}
+.appoint-date-choose input{}
+.pt-table{
+    width: 100%;
+    text-align: center;
+}
+.pt-table thead tr{
+    border-bottom: 2px solid #1cc7c1;
+}
+.pt-table thead tr th{}
+.pt-table tbody tr td{}
+.view-btn {
+    border: none;
+    background: linear-gradient(45deg, #1cc7c1, #1cc7c1);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.pending-btn{
+        border: none;
+        background: linear-gradient(45deg, #1c7ac7, #1c88c7);
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 3px 15px;
+        display: inline-block;
+        border-radius: 5px;
+}
+.action-btn {
+    border: none;
+    background: linear-gradient(45deg, #e5ef07, #ed8f00);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 3px 10px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 6px;
+}

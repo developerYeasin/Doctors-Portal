@@ -1,0 +1,29 @@
+.navbar-main {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 46px;
+    z-index: 11;
+}
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 18px;
+}
+
+.nav-menu li:hover {}
+
+.nav-menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    font-size: 18px;
+}
+
+.nav-menu li a:hover {}
