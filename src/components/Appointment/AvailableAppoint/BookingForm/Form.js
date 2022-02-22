@@ -1,34 +1,36 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 
-const Form = () => {
-    const {
-      register,
-      handleSubmit,
-      watch,
-      formState: { errors },
-    } = useForm();
+const Form = ({ date, handlePopup }) => {
+  const newDate = date && `${date.month}/${date.day}/${date.year}`;
 
-    const onSubmit = (appointDate) => {
-      console.log(appointDate);
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
 
-      fetch("http://localhost:5000/booking", {
-       method: 'POST',
-       headers: {'Content-Type': 'application/json'},
-       body: JSON.stringify(appointDate)
-     })
-     .then(res => res.json())
-     .then(data => {
-       console.log(data)
-     })
+  const onSubmit = (appointDate) => {
+    console.log(appointDate);
 
-    };
+    fetch("http://localhost:5000/booking", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(appointDate),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        alert("success");
+      });
+  };
 
-    console.log(watch("example")); // watch input value by passing the name of it
+  // console.log(watch("example")); // watch input value by passing the name of it
 
-    return (
+  return (
+    <div>
       <form onSubmit={handleSubmit(onSubmit)}>
-
         <select {...register("selectTime", { required: true })}>
           <option value="select-time">select-time</option>
           <option value="7pm">7pm</option>
@@ -56,8 +58,7 @@ const Form = () => {
         />
         {errors.email && <span>This field is required</span>}
 
-        <input type="date" {...register("date", { required: true })} />
-        {errors.date && <span>This field is required</span>}
+        <input type="disable" readOnly value={newDate} {...register("date")} />
 
         <div className="booking-form-btn">
           <button type="submit" className="primary-btn">
@@ -65,7 +66,9 @@ const Form = () => {
           </button>
         </div>
       </form>
-    );
+        <button onClick={() => handlePopup}>x</button>
+    </div>
+  );
 };
 
 export default Form;

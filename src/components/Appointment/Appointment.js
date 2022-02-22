@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Appointment.css";
 import "react-modern-calendar-datepicker/lib/DatePicker.css";
 import { Calendar } from "react-modern-calendar-datepicker";
@@ -6,7 +6,14 @@ import Navbar from "../Navbar/Navbar";
 import AvailableAppoint from "./AvailableAppoint/AvailableAppoint";
 
 const Appointment = () => {
-     const [selectedDay, setSelectedDay] = useState(null);
+  const day = new Date();
+  const newDay = {
+    day: day.getDate(),
+    month: day.getMonth() + 1,
+    year: day.getFullYear(),
+  }
+     const [selectedDay, setSelectedDay] = useState(newDay); 
+     
   return (
     <div>
       <Navbar />

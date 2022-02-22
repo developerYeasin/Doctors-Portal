@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import BookingForm from "./BookingForm/BookingForm";
 
-const AvailAppointBox = ({appoint}) => {
+const AvailAppointBox = ({appoint, date}) => {
   return (
     <div className="col-md-4 text-center">
       <div className="avail-appoint-box">
@@ -12,7 +12,7 @@ const AvailAppointBox = ({appoint}) => {
         <p className="avail-appoint-box-spaces">
           {appoint && appoint.spaces} SPACES AVAILABLE
         </p>
-        <BookingForm />
+        <BookingForm date={date} />
       </div>
     </div>
   );

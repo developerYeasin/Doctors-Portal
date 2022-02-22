@@ -7,7 +7,7 @@ const Patients = () => {
         <div className="container-fluid">
           <div className="row">
             <ControlPanel />
-            <div className="col-md-8">
+            <div className="col-md-8 ms-auto me-5">
               <h1>Patients</h1>
             </div>
           </div>

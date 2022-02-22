@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import AboutAppointment from './AboutAppointment/AboutAppointment';
 import Blog from './Blog/Blog';
+import Doctors from './Doctors/Doctors';
 import Header from './Header/Header';
 import InformationBox from './InformationBox/InformationBox';
 import Services from './Services/Services';
@@ -17,6 +18,7 @@ const Home = () => {
             <AboutAppointment/>
             <Testimonial/>
             <Blog/>
+            <Doctors/>
         </div>
     );
 };
